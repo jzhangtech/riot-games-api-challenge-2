@@ -1,1 +1,1 @@
-﻿matches = new Mongo.Collection("matches");
+﻿items = new Mongo.Collection("items");

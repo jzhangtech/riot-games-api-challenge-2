@@ -1,3 +1,3 @@
 ﻿Router.route('/', {
-    name: 'champions'
+    name: 'items'
 });
