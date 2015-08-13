@@ -1,5 +1,2 @@
-#private meteor directory
-/private/*
-
 #api key
 /server/api-key.js

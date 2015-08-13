@@ -5,7 +5,7 @@
 
     Template.items.helpers({
         'items' : function() {
-            return items.find({});
+            return items.find({}, {sort: {name: 1}});
         },
     });
 }
