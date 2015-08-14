@@ -1,5 +1,9 @@
 <template name="customize">
 	select a champion
 	select items sets
-
+	<select id="champions">
+		{{#each champions}}
+			<option>{{this.name}}</option>
+		{{/each}}
+	</select>
 </template>
