@@ -9,4 +9,6 @@ autopublish
 insecure
 iron:router
 jquery
-rafaelhdr:google-charts
+mrt:bootstrap-3
+fortawesome:fontawesome
+houston:admin
