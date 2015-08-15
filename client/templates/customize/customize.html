@@ -2,8 +2,9 @@
 	select a champion
 	select items sets
 	<select id="champions">
+		<option value="default">--select--</option>
 		{{#each champions}}
-			<option>{{this.name}}</option>
+			<option value={{this.id}}>{{this.name}}</option>
 		{{/each}}
 	</select>
 </template>
