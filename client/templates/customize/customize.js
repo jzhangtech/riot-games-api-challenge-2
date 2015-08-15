@@ -1,6 +1,7 @@
 if (Meteor.isClient) {
-    Template.customize.rendered = function () {
+    
 
+    Template.customize.rendered = function () {
     }
 
     Template.customize.helpers({
@@ -8,4 +9,8 @@ if (Meteor.isClient) {
             return champions.find({}, {sort: {name: 1}});
         },
     });
+
+    
+
+
 }
