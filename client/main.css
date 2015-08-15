@@ -1,1 +1,73 @@
-/* CSS declarations go here */
+/* CSS declarations go here 
+color theme light-dark
+#2C3E50  dblue
+ #E74C3C orange
+ #ECF0F1  white
+  #3498DB blue 
+   #2980B9 blue
+*/
+ol{
+	list-style-type: none; 
+
+}
+
+.fancynav{
+	background-color: #2C3E50;
+	color:#2980B9;	
+	  text-align: center;
+
+}
+ li > a {
+    color:  #ECF0F1!important;
+    text-align: center;
+}
+.featureitem{
+	  text-align: center;
+	  font: 2.0em 'Oleo Script', Helvetica, sans-serif;
+  color:#046380;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+
+}
+
+.homechamp>ol>li{
+	 font: 1.3498DBem 'Oleo Script', Helvetica, sans-serif;
+	  border:solid 1px black;
+	  padding:1em;
+
+	
+}
+.middle{
+	    padding-left: 29%;
+}
+h4{
+	 text-align: center;
+	 font: 1.8em 'Oleo Script', Helvetica, sans-serif;
+     color:#046380;
+     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+.itembox{
+	margin-right: 4px;
+	border-radius: 6px; 
+	position: relative; 
+	height: 100px; 
+	width: 100px;
+	 border: 1px solid rgb(17, 17, 17); 
+	 float: left; box-shadow: 0px 0px 2px rgb(0, 0, 0) inset; 
+	 text-align: center; color: #000; 
+	 font: bold 36px/100px 'Trebuchet MS';
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

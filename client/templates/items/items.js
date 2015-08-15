@@ -1,4 +1,6 @@
 ﻿if (Meteor.isClient) {
+
+	
     Template.items.rendered = function () {
 
     }
