@@ -1,33 +1,48 @@
 <template name="customize">
-	select a champion
-	select items sets
-	<select id="champions">
-		<option value="default">--select--</option>
-		{{#each champions}}
-			<option value={{this.id}}>{{this.name}}</option>
-		{{/each}}
-	</select>
-	
-	<div style="display: table-cell; vertical-align: middle; width: 440px;">
-       <div class="itembox"> slot1</div>
-        <div class="itembox">
-                            slot2
-                        </div>
-           <div class="itembox">
-                            slot3
-                        </div>
-                 <div class="itembox">
-                            slot4
-                        </div>
-                                 
-                 <div class="itembox">
-                            slot5
-                        </div>
-                                  
-                 <div class="itembox">
-                            slot6
-                        </div>
-                        </div>
-
-
+	<div class="container">
+		
+		<!-- Champ Select -->
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<h3>Select a Champion</h3>
+				<select id="champions">
+					<option value="default">--select--</option>
+					{{#each champions}}
+						<option value="{{this.champId}}">{{this.name}}</option>
+					{{/each}}
+				</select>
+			</div>
+		</div>
+		
+		<!-- Item Store -->
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<h3>Select Items</h3>
+				<select id="itemTypes">
+					<option value="default">--select--</option>
+					{{#each itemTypes}}
+						<option value="{{this}}">{{this}}</option>
+					{{/each}}
+				</select>
+				
+				<div>
+					{{#each listItems}}
+						<img src="http://ddragon.leagueoflegends.com/cdn/5.2.1/img/item/{{this.id}}.png"/>
+					{{/each}}
+				</div>
+			</div>
+		</div>
+		
+		<!-- Item Slots -->
+		<div class="row">
+			<div class="col-xs-8 col-xs-offset-2">
+				<div class="col-xs-2 itembox">slot1</div>
+				<div class="col-xs-2 itembox">slot2</div>
+				<div class="col-xs-2 itembox">slot3</div>
+				<div class="col-xs-2 itembox">slot4</div>
+				<div class="col-xs-2 itembox">slot5</div>
+				<div class="col-xs-2 itembox">slot6</div>
+			</div>
+		</div>
+	</div>
 </template>
