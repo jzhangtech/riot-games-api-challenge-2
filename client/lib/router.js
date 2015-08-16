@@ -17,3 +17,9 @@ Router.route('/', {
 	name: 'home'
 	
 });
+
+
+Router.route('/exp', {
+	name: 'exp'
+	
+});

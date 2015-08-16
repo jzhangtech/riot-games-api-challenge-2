@@ -1,10 +1,11 @@
 if (Meteor.isClient) {
+    
     var tags = ["Health", "Spell Damage", "Armor", "Damage", "Life Steal", "Attack Speed", "Critical Strike", "Movement", "Active", "Trinket", "Spell Block", "Health Regen", "Jungle", "Mana Regen", "On Hit", "Cooldown Reduction", "Aura", "Armor Penetration", "Boots", "Stealth", "Vision", "Magic Penetration", "Mana", "Consumable", "Lane", "GoldPer", "Slow", "Tenacity", "SpellVamp"];
     
     Session.set('selectedTag', 'empty');
     
     Template.customize.rendered = function () {
-
+        
     }
 
     Template.customize.helpers({
